@@ -30,15 +30,7 @@ const Hero = () => {
                 Ver demo
               </Button>
             </div>
-            
-            <div className="flex items-center text-sm text-toka-gray-500">
-              <div className="flex -space-x-2 mr-4">
-                <div className="w-8 h-8 bg-toka-orange-200 rounded-full border-2 border-white"></div>
-                <div className="w-8 h-8 bg-toka-orange-300 rounded-full border-2 border-white"></div>
-                <div className="w-8 h-8 bg-toka-orange-400 rounded-full border-2 border-white"></div>
-              </div>
-              <span>+500 personas ya se registraron</span>
-            </div>
+
           </div>
 
           {/* Visual Content */}
@@ -78,7 +70,7 @@ const Hero = () => {
                             <p className="font-semibold text-toka-gray-900">Luz</p>
                             <p className="text-sm text-toka-gray-500">Próximo pago: 15 Dic</p>
                           </div>
-                          <span className="text-toka-orange font-bold">$45.00</span>
+                          <span className="text-toka-orange font-bold">S/45.00</span>
                         </div>
                       </div>
                       
@@ -88,7 +80,7 @@ const Hero = () => {
                             <p className="font-semibold text-toka-gray-900">Internet</p>
                             <p className="text-sm text-toka-gray-500">Próximo pago: 20 Dic</p>
                           </div>
-                          <span className="text-toka-orange font-bold">$39.99</span>
+                          <span className="text-toka-orange font-bold">S/39.99</span>
                         </div>
                       </div>
                     </div>
