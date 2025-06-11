@@ -5,13 +5,10 @@ const FAQ = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   const faqs = [
-    {
-      question: "¿Cuándo estará disponible TOKA?",
-      answer: "TOKA se encuentra en desarrollo activo. Esperamos lanzar la versión beta en el primer trimestre de 2024. Únete a nuestra lista de espera para ser de los primeros en probarla."
-    },
+
     {
       question: "¿Es seguro conectar mis tarjetas a TOKA?",
-      answer: "Absolutamente. TOKA utiliza encriptación de nivel bancario y cumple con todos los estándares de seguridad PCI DSS. Nunca almacenamos los datos completos de tus tarjetas, solo tokens seguros para procesar pagos."
+      answer: "Absolutamente. TOKA utiliza encriptación de nivel bancario y cumple con todos los estándares de seguridad PCI DSS. Almacenamos de manera encriptada los datos para sus usos, solo tokens seguros para procesar pagos."
     },
     {
       question: "¿Qué servicios podré pagar con TOKA?",
@@ -19,7 +16,7 @@ const FAQ = () => {
     },
     {
       question: "¿Cuánto cuesta usar TOKA?",
-      answer: "TOKA es completamente gratuita para usuarios finales. No cobramos mensualidades ni tarifas de registro. Nuestros ingresos provienen de pequeñas comisiones que pagan los proveedores de servicios."
+      answer: "No cobramos mensualidades ni tarifas de registro. Nuestros ingresos provienen de pequeñas comisiones cuando se realiza el pago de un servicios que es impercetible."
     },
     {
       question: "¿Puedo cancelar un pago programado?",
@@ -27,7 +24,7 @@ const FAQ = () => {
     },
     {
       question: "¿Qué pasa si mi tarjeta no tiene fondos?",
-      answer: "TOKA intentará el pago automáticamente con tu tarjeta de respaldo configurada. Si ninguna tarjeta puede procesar el pago, recibirás una notificación inmediata para que puedas resolver la situación."
+      answer: "Si ninguna tarjeta puede procesar el pago, recibirás una notificación inmediata para que puedas resolver la situación."
     },
     {
       question: "¿Funcionará en todos los bancos?",

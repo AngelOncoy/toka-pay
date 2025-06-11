@@ -91,6 +91,10 @@ export default {
 					}
 				}
 			},
+			fontFamily: {
+				qilka: ['Qilka'], // Agrega esta línea
+			},
+
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',

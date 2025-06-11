@@ -56,7 +56,7 @@ const Hero = () => {
                   <div className="p-6 space-y-6">
                     <div className="text-center">
                       <div className="w-16 h-16 bg-gradient-to-br from-toka-orange to-toka-orange-600 rounded-2xl mx-auto mb-4 flex items-center justify-center">
-                        <CreditCard className="w-8 h-8 text-white" />
+                        <img src="/assets/logotokablanco.png" alt="Logo" className="w-8 h-8 object-contain" />
                       </div>
                       <h3 className="text-xl font-bold text-toka-gray-900">TOKA</h3>
                       <p className="text-sm text-toka-gray-500">Gestiona tus pagos</p>
@@ -67,7 +67,7 @@ const Hero = () => {
                       <div className="bg-gradient-to-r from-toka-orange to-toka-orange-600 p-4 rounded-xl text-white">
                         <div className="flex justify-between items-start mb-2">
                           <span className="text-xs opacity-80">Tarjeta Principal</span>
-                          <CreditCard className="w-4 h-4" />
+                          <img src="/assets/logotokablanco.png" className="w-4 h-4" />
                         </div>
                         <div className="text-lg font-mono">•••• •••• •••• 1234</div>
                       </div>
